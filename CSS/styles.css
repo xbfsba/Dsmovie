@@ -13,6 +13,7 @@
 
 h1 h2 h3 h4 h5 h6 {
     margin: 0;
+    
 }
 
 html, body{
@@ -21,8 +22,8 @@ html, body{
 }
 
 header{
-    background-color: var(--color-primary)
-    color: var(var(--white))
+    background-color: var(--color-primary);
+    color: var(var(--white));
     height: 60px;
     display: flex;
     align-items: center;
@@ -31,10 +32,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+}
 nav h1 {
     font-size: 24px;
     font-weight: 700;
+    color: var(--white);
+  
 }
 
 nav a{
@@ -42,8 +45,6 @@ nav a{
     font-weight: 400;
 }
 
-
-}
 a, a:hover{
     text-decoration: none;
     color: unset;
@@ -52,8 +53,25 @@ a, a:hover{
 .dsmovie-contact-container{
     display: flex;
     align-items: center;
+    color: var(--white);
 }
 
 .dsmovie-contact-container img {
     margin-right: 10px;
+}
+
+#dsmovie-card-list {
+    padding: 40px 0;
+}
+
+
+.dsmovie-card {
+    width:  360px;
+    height: 400px;
+    background-color: var(--white);
+
+}
+
+.dsmovie-card img {
+    width: 100%;
 }
